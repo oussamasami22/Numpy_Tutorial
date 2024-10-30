@@ -6,3 +6,7 @@ for x in arr:
   for y in x:
     for z in y:
       print(z)
+
+      
+    for x in np.nditer(arr):
+       print(x)
